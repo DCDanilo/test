@@ -1,5 +1,5 @@
 /*
-Theme Name: Test
+Theme Name: test-theme
 Theme URI: https://wordpress.org/themes/twentytwentythree
 Author: the WordPress team
 Author URI: https://wordpress.org
@@ -13,3 +13,8 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: test
 Tags: otest
 */
+
+
+h1{
+    color:blueviolet; 
+}
