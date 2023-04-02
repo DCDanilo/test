@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>test</title>
+
+    <?php wp_head(); ?>
+
 </head>
 <body <?php body_class()?> >
-
-<?php wp_head(); ?>
     
-</body>
-</html>
