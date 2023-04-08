@@ -5,7 +5,9 @@ function themeStyle(){
 }
 
 function themeScript(){
-    wp_enqueue_script('script', get_template_directory_uri().'assets/css/bootstrap.min.js');
+    wp_enqueue_script('script', get_template_directory_uri().'assets/js/bootstrap.min.js');
+    wp_enqueue_script('script', get_template_directory_uri().'assets/js/main.js');
+
 }
 
 add_action('wp_enqueue_scripts', 'themeStyle'); 
